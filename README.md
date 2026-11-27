@@ -4,6 +4,8 @@ This mod brings Movie Duels to KJK. KJK plays the worlds of Star Wars: Knights o
 
 No game files come with this mod. It reads KOTOR, Jedi Academy and Movie Duels from your own installs and never changes them.
 
+![Your character as Luke Skywalker and Juhani as Darth Revan in Taris' Upper City](screenshots/taris-party.jpg)
+
 ## Download
 
 Download [KJK-Movie-Duels-Mod.zip](https://github.com/philippberk3l-ops/kjk-movie-duels-mod/releases/latest/download/KJK-Movie-Duels-Mod.zip) (43 MB) from the [latest release](https://github.com/philippberk3l-ops/kjk-movie-duels-mod/releases/latest). Unpack it and run `Install.bat`. The `README.txt` inside the zip explains every step, including the Steam Deck and Linux.
@@ -22,6 +24,12 @@ Download [KJK-Movie-Duels-Mod.zip](https://github.com/philippberk3l-ops/kjk-movi
 
 A screen in the style of Movie Duels' Lightsaber Creation menu lets each party member forge their own lightsaber. A character can take any Movie Duels hilt, one of 11 blade colours, and a Movie Duels fighting style for each of five stance slots. The slots are the fast, medium and strong styles, two lightsabers, and a double-bladed lightsaber. Each companion keeps their own hilts, colours and stances. A preview shows the hilt with its blade lit before you choose it.
 
+![Lightsaber Creation's Hilt tab](screenshots/lightsaber-creation-hilt.jpg)
+
+![Lightsaber Creation's Stance tab, with Galen Marek's stance chosen](screenshots/lightsaber-creation-stance.jpg)
+
+![Lightsaber Creation's Colour tab](screenshots/lightsaber-creation-colour.jpg)
+
 ### Stances
 
 The mod offers 27 Movie Duels stances. Among them are Darth Vader, Luke Skywalker, Obi-Wan Kenobi, Count Dooku, Darth Maul, Yoda, Mace Windu, Kylo Ren, Rey, Cal Kestis, Galen Marek and General Grievous. A character blends from one stance into the next over about a quarter of a second. A character also turns their wrist so that the blade does not pass through their own body.
@@ -29,6 +37,12 @@ The mod offers 27 Movie Duels stances. Among them are Darth Vader, Luke Skywalke
 ### Player models
 
 The Player model page draws your own character or any companion as another model. You can choose one of the campaign's player faces, or any character of Movie Duels' character select, era by era. A companion keeps their model through area changes and saves. Armour and helmets are drawn solid, as in Movie Duels. A Movie Duels character holds KOTOR's blasters as Jedi Academy's own characters hold theirs, with the barrel along the forearm.
+
+![The Player model page with Luke Skywalker chosen](screenshots/player-models.jpg)
+
+![Kreia drawn as Darth Revan, fighting Sith troopers in KOTOR 2](screenshots/kotor2-kreia-as-revan.jpg)
+
+![Jango Fett and Boba Fett as Movie Duels player models](screenshots/jango-and-boba-fett.jpg)
 
 ### Force powers
 
