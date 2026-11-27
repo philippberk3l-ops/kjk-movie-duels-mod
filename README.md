@@ -15,6 +15,7 @@ Download [KJK-Movie-Duels-Mod.zip](https://github.com/philippberk3l-ops/kjk-movi
 ## What you need
 
 - Windows 10 or 11, 64-bit, or a Steam Deck or Linux PC with Steam's Proton.
+- On Windows, the Microsoft Visual C++ Redistributable for Visual Studio 2015 to 2022 (x64). Movie Duels needs it too, so if Movie Duels runs, you already have it. If KJK reports that `VCRUNTIME140.dll` is missing, install it from [Microsoft](https://aka.ms/vs/17/release/vc_redist.x64.exe). Proton on the Steam Deck and on Linux already includes it.
 - Star Wars: Knights of the Old Republic II. KJK draws its menus and the Lightsaber Creation screen from it.
 - Star Wars Jedi Knight: Jedi Academy. KJK takes its movement, lightsaber combat and the Force from it.
 - Movie Duels, installed into Jedi Academy's `GameData\MD` folder.
