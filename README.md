@@ -34,6 +34,24 @@ The Player model page draws your own character or any companion as another model
 
 Eight Movie Duels Force powers join the game: Force Blast, Force Repulse, Force Destruction, Electric Judgment, Force Projection, Deadly Sight, Force Grasp and Force Sense. They are chosen on a power wheel. Hold G, or LB and RT together on a gamepad, to open it. Companions cast these powers in fights too.
 
+## Steam Deck and Linux
+
+The mod installs and runs on the Steam Deck and on Linux, through Steam's Proton. Windows' `Install.bat` cannot run inside a Proton prefix, so the zip also has a Linux installer, `install.sh`.
+
+1. Switch the Steam Deck to Desktop Mode and unpack the zip.
+2. Open the folder in the file manager, right-click an empty spot and choose "Open Terminal Here".
+3. Type `bash install.sh` and press Enter. The installer finds KOTOR, KOTOR 2, Jedi Academy and Movie Duels in every Steam library, including one on a microSD card.
+4. In Steam, add `kjk.exe` from the installed folder as a non-Steam game. In its Properties, under Compatibility, force Proton Experimental or the newest Proton.
+5. Start it from your library. It then shows in Game Mode too.
+
+On the first start, KJK asks where your games are. Under Proton, your Linux folders are on drive Z, and the installer prints the exact folders to choose. To uninstall, run `bash install.sh --uninstall` in the unpacked folder.
+
+## Credits
+
+All the lightsaber hilts, fighting stances, animations, player models, sounds and Force power effects this mod uses come from [Movie Duels](https://www.moddb.com/mods/movie-duels), made by the Movie Duels team. Thank you to the team for years of work on it. The mod reads their files from your own Movie Duels install and ships none of them, so you need Movie Duels installed to play. Please support the Movie Duels team and download Movie Duels from them.
+
+KJK itself is made by the kjk contributors.
+
 ## Licence
 
 KJK is under the MIT License. See `LICENSE.txt` and `NOTICE.txt`. Star Wars, Knights of the Old Republic and Jedi Academy are trademarks of their respective owners. This mod is not affiliated with or endorsed by them.
