@@ -14,7 +14,25 @@ Download [KJK-Movie-Duels-Mod.zip](https://github.com/philippberk3l-ops/kjk-movi
 
 The installer scripts in the zip are in this repository, byte for byte, so you can read them before you run anything: [`installer/`](installer). `Install.bat` only starts [`install.ps1`](installer/install.ps1) with PowerShell. That script looks for your games through Steam's and GOG's usual registry entries, and only reads them. It then copies `kjk.exe` and the readme into `%LOCALAPPDATA%\Programs\KJK`, keeps any older `kjk.exe` there as a backup, and makes a desktop and a Start menu shortcut. It downloads nothing, changes no game files and needs no administrator rights. On the Steam Deck and Linux, [`install.sh`](installer/install.sh) does the same.
 
-You can also skip the installer. Unpack the zip anywhere and start `kjk.exe`. On its first start, KJK's own setup finds your games or asks where they are.
+### Manual installation, without any script
+
+You do not need the installer. KJK runs from any folder.
+
+On Windows:
+
+1. Unpack the zip into a folder of your choice, for example `C:\Games\KJK Movie Duels`.
+2. Double-click `kjk.exe` in that folder.
+3. On its first start, KJK's setup finds KOTOR, KOTOR 2, Jedi Academy and Movie Duels by itself. If a game is somewhere it does not look, the setup asks you to choose the game's folder.
+4. For a shortcut, right-click `kjk.exe` and choose "Send to", then "Desktop (create shortcut)".
+
+To remove the mod, delete that folder. Your saves and settings are kept in `%APPDATA%\kjk`, so a newer version finds them again.
+
+On the Steam Deck or Linux:
+
+1. In Desktop Mode, unpack the zip, for example into your Downloads folder.
+2. In Steam, choose Games, then "Add a Non-Steam Game to My Library". Choose Browse and pick `kjk.exe` in the unpacked folder.
+3. Open the new entry's Properties, then Compatibility. Tick "Force the use of a specific Steam Play compatibility tool" and choose Proton Experimental or the newest Proton.
+4. Start it. On its first start, KJK's setup asks where your games are. Under Proton, your Linux folders are on drive Z, for example `Z:\home\deck\.local\share\Steam\steamapps\common\Jedi Academy`.
 
 `kjk.exe` is not digitally signed, so Windows may show "Windows protected your PC" the first time. Choose "More info", then "Run anyway".
 
