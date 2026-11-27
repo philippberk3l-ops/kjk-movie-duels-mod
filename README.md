@@ -1,6 +1,6 @@
 # KJK Movie Duels Mod
 
-This mod brings Movie Duels to KJK. KJK plays the worlds of Star Wars: Knights of the Old Republic with the movement and lightsaber combat of Star Wars Jedi Knight: Jedi Academy. The mod adds Movie Duels' lightsaber creation, fighting stances, player models and Force powers. It works in the KOTOR 1 and the KOTOR 2 campaign.
+This mod brings Movie Duels to [KJK](https://github.com/kjk-engine/kjk), the fan engine made by reclaimterrain. KJK plays the worlds of Star Wars: Knights of the Old Republic with the movement and lightsaber combat of Star Wars Jedi Knight: Jedi Academy. This mod is built on KJK and would not exist without it. The mod adds Movie Duels' lightsaber creation, fighting stances, player models and Force powers. It works in the KOTOR 1 and the KOTOR 2 campaign.
 
 No game files come with this mod. It reads KOTOR, Jedi Academy and Movie Duels from your own installs and never changes them.
 
@@ -99,7 +99,11 @@ KJK plays these games from the copies you own:
 
 ### KJK
 
-KJK is made by the kjk contributors, under the MIT License. To understand how the original engines behave, its authors read the open-source projects [OpenJK](https://github.com/JACoders/OpenJK), [reone](https://github.com/seedhartha/reone) and [xoreos](https://github.com/xoreos/xoreos). No code from them is included. `NOTICE.txt` says more.
+[KJK](https://github.com/kjk-engine/kjk) is made by **reclaimterrain**, who created it and wrote nearly all of it, with contributions from **Superd22**. KJK is what makes this mod possible. It is a complete fan engine that plays KOTOR, KOTOR II and Jedi Academy from your own copies, with KOTOR's worlds, story and menus and Jedi Academy's movement and lightsaber combat. Its co-op and its save system come from KJK too.
+
+This mod is built on KJK v0.17.0, with Movie Duels' features added on top. Thank you to reclaimterrain for KJK and for releasing it under the MIT License, which lets mods like this one be shared. For KJK itself, its newest versions and its own features, see [KJK's releases](https://github.com/kjk-engine/kjk/releases). This mod is not an official KJK release, and its bugs are not KJK's. Please report problems with the mod here, not to KJK.
+
+To understand how the original engines behave, KJK's authors read the open-source projects [OpenJK](https://github.com/JACoders/OpenJK), [reone](https://github.com/seedhartha/reone) and [xoreos](https://github.com/xoreos/xoreos). No code from them is included. `NOTICE.txt` says more.
 
 ## Licence
 
