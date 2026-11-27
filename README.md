@@ -10,6 +10,14 @@ No game files come with this mod. It reads KOTOR, Jedi Academy and Movie Duels f
 
 Download [KJK-Movie-Duels-Mod.zip](https://github.com/philippberk3l-ops/kjk-movie-duels-mod/releases/latest/download/KJK-Movie-Duels-Mod.zip) (35 MB) from the [latest release](https://github.com/philippberk3l-ops/kjk-movie-duels-mod/releases/latest). Unpack it and run `Install.bat`. The `README.txt` inside the zip explains every step, including the Steam Deck and Linux.
 
+### The installer is open too
+
+The installer scripts in the zip are in this repository, byte for byte, so you can read them before you run anything: [`installer/`](installer). `Install.bat` only starts [`install.ps1`](installer/install.ps1) with PowerShell. That script looks for your games through Steam's and GOG's usual registry entries, and only reads them. It then copies `kjk.exe` and the readme into `%LOCALAPPDATA%\Programs\KJK`, keeps any older `kjk.exe` there as a backup, and makes a desktop and a Start menu shortcut. It downloads nothing, changes no game files and needs no administrator rights. On the Steam Deck and Linux, [`install.sh`](installer/install.sh) does the same.
+
+You can also skip the installer. Unpack the zip anywhere and start `kjk.exe`. On its first start, KJK's own setup finds your games or asks where they are.
+
+`kjk.exe` is not digitally signed, so Windows may show "Windows protected your PC" the first time. Choose "More info", then "Run anyway".
+
 ## What you need
 
 - Windows 10 or 11, 64-bit, or a Steam Deck or Linux PC with Steam's Proton.
