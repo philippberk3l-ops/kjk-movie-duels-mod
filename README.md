@@ -62,9 +62,43 @@ On the first start, KJK asks where your games are. Under Proton, your Linux fold
 
 ## Credits
 
-All the lightsaber hilts, fighting stances, animations, player models, sounds and Force power effects this mod uses come from [Movie Duels](https://www.moddb.com/mods/movie-duels), made by the Movie Duels team. Thank you to the team for years of work on it. The mod reads their files from your own Movie Duels install and ships none of them, so you need Movie Duels installed to play. Please support the Movie Duels team and download Movie Duels from them.
+### Star Wars: Movie Duels
 
-KJK itself is made by the kjk contributors.
+Everything this mod shows from Movie Duels was made by the people below. That covers the lightsaber hilts, the blades, the fighting stances and their animations, the player models, the sounds and the Force power effects. This mod reads their files from your own Movie Duels install and ships none of them. Please download [Star Wars: Movie Duels](https://www.moddb.com/mods/movie-duels) from its makers, and thank them for it.
+
+Movie Duels is made by the Movie Duels Team, and was first created by Wector. The development team, as Movie Duels' own readme lists it:
+
+| Member | Role |
+|---|---|
+| Mike7704 | Leader, coder, menus, scripter |
+| Chloe | Texture artist |
+| GP | Mapper, texture artist |
+| Grimbord | Modeller |
+| Jace Solaris | Coder |
+| LangZ | Sound editor |
+| Lwkill | Mapper, scripter |
+| MasterJin | Mapper |
+| Mikcz | Mapper, modeller |
+| RealygirlLP | Translator (German) |
+| Tompa9 | Modeller, scripter, translator (Czech) |
+| Valzhar | Coder |
+| WC3 Tutorial | Animator |
+| Yeyo JK | Texture artist |
+| Zinney | Beta tester |
+
+Movie Duels also brings together the work of many artists of the Jedi Academy community. The lightsaber hilt collection is by Plasma. The blades come from the SFX Sabers packs by Kalamaray, Scarlett and Razor Ace, the Movie Battles II team and Zinney. The player models are by many modellers, among them HapSlash, DT85, Scerendo, Tompa9, Grimbord, MIKCZ and AshuraDX. Each model, hilt and effect is credited to its authors in Movie Duels' `ReadMe\ReadMe_Credits.txt`, in your Movie Duels folder.
+
+### The games
+
+KJK plays these games from the copies you own:
+
+- Star Wars: Knights of the Old Republic, by BioWare and LucasArts.
+- Star Wars: Knights of the Old Republic II: The Sith Lords, by Obsidian Entertainment and LucasArts.
+- Star Wars Jedi Knight: Jedi Academy, by Raven Software and LucasArts.
+
+### KJK
+
+KJK is made by the kjk contributors, under the MIT License. To understand how the original engines behave, its authors read the open-source projects [OpenJK](https://github.com/JACoders/OpenJK), [reone](https://github.com/seedhartha/reone) and [xoreos](https://github.com/xoreos/xoreos). No code from them is included. `NOTICE.txt` says more.
 
 ## Licence
 
