@@ -36,6 +36,16 @@ On the Steam Deck or Linux:
 
 `kjk.exe` is not digitally signed, so Windows may show "Windows protected your PC" the first time. Choose "More info", then "Run anyway".
 
+### If you already play KJK
+
+This mod comes with its own complete `kjk.exe`, so you do not need KJK installed. The mod is based on KJK v0.17.0. Saves made with a newer KJK, v0.18.0 or later, use a newer save format and do not load in the mod. The mod's own saves should still load in a newer KJK.
+
+KJK and the mod keep saves and settings in the same folder, `%APPDATA%\kjk`. So your newer saves show in the mod's list, but cannot be opened there.
+
+The installer replaces the `kjk.exe` in KJK's folder and keeps your newer one as `kjk.exe.before-lightsaber-mod`. The uninstaller puts it back. To keep your newer KJK untouched, use the manual installation above, into a folder of its own.
+
+The mod does not include what KJK added after v0.17.0, such as its own Movie Duels blocking rules, photo mode and the new lighting. See [KJK's releases](https://github.com/kjk-engine/kjk/releases) for those.
+
 ## What you need
 
 - Windows 10 or 11, 64-bit, or a Steam Deck or Linux PC with Steam's Proton.
