@@ -8,9 +8,7 @@ No game files come with this mod. It reads KOTOR, Jedi Academy and Movie Duels f
 
 ## Download
 
-> **A fixed download is on its way.** The first zip's kjk.exe needed a Steam library that the zip did not include, so the game did not start. It has been withdrawn, and the link below works again once the fixed zip is up.
-
-Download [KJK-Movie-Duels-Mod.zip](https://github.com/philippberk3l-ops/kjk-movie-duels-mod/releases/latest/download/KJK-Movie-Duels-Mod.zip) (43 MB) from the [latest release](https://github.com/philippberk3l-ops/kjk-movie-duels-mod/releases/latest). Unpack it and run `Install.bat`. The `README.txt` inside the zip explains every step, including the Steam Deck and Linux.
+Download [KJK-Movie-Duels-Mod.zip](https://github.com/philippberk3l-ops/kjk-movie-duels-mod/releases/latest/download/KJK-Movie-Duels-Mod.zip) (35 MB) from the [latest release](https://github.com/philippberk3l-ops/kjk-movie-duels-mod/releases/latest). Unpack it and run `Install.bat`. The `README.txt` inside the zip explains every step, including the Steam Deck and Linux.
 
 ## What you need
 
