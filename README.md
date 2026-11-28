@@ -8,7 +8,7 @@ No game files come with this mod. It reads KOTOR, Jedi Academy and Movie Duels f
 
 ## Download
 
-Download [KJK-Movie-Duels-Mod.zip](https://github.com/philippberk3l-ops/kjk-movie-duels-mod/releases/latest/download/KJK-Movie-Duels-Mod.zip) (35 MB) from the [latest release](https://github.com/philippberk3l-ops/kjk-movie-duels-mod/releases/latest). Unpack it and run `Install.bat`. The `README.txt` inside the zip explains every step, including the Steam Deck and Linux.
+Download [KJK-Movie-Duels-Mod.zip](https://github.com/philippberk3l-ops/kjk-movie-duels-mod/releases/latest/download/KJK-Movie-Duels-Mod.zip) (35 MB) from the [latest release](https://github.com/philippberk3l-ops/kjk-movie-duels-mod/releases/latest). On the Steam Deck and Linux, please wait for the next version; see "Steam Deck and Linux" below. Unpack it and run `Install.bat`. The `README.txt` inside the zip explains every step, including the Steam Deck and Linux.
 
 ### The installer is open too
 
@@ -86,6 +86,8 @@ The Player model page draws your own character or any companion as another model
 Eight Movie Duels Force powers join the game: Force Blast, Force Repulse, Force Destruction, Electric Judgment, Force Projection, Deadly Sight, Force Grasp and Force Sense. They are chosen on a power wheel. Hold G, or LB and RT together on a gamepad, to open it. Companions cast these powers in fights too.
 
 ## Steam Deck and Linux
+
+> **Please wait for the next version.** The current zip unpacks into loose, oddly named files on the Steam Deck and on Linux, so the steps below do not work with it yet. The next version, built on KJK v0.22.0, fixes this.
 
 The mod installs and runs on the Steam Deck and on Linux, through Steam's Proton. Windows' `Install.bat` cannot run inside a Proton prefix, so the zip also has a Linux installer, `install.sh`.
 
